@@ -1,0 +1,13 @@
+@import '../../../../vendor/filament/filament/resources/css/theme.css';
+
+@config './tailwind.config.js';
+
+.fi-btn {
+    @apply rounded-full;
+    @apply px-4;
+}
+
+.fi-input-wrapper {
+    @apply rounded-full;
+    @apply px-1;
+}
